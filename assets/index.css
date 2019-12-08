@@ -56,6 +56,9 @@ input[type="text"] {
 
   text-align: center;
 }
+.col-lg-4:hover {
+  background: #ccffff;
+}
 .br-services h3 {
   color: #e29930;
 }
@@ -90,6 +93,10 @@ input[type="text"] {
   font-size: 16px;
 }
 
+/* why minicabee section */
+.why :hover {
+  background: #ccffff;
+}
 /* footer */
 .br-footer {
   background: #253754;
