@@ -1,0 +1,104 @@
+/* body */
+.main {
+  color: #32384d;
+  font-family: "Open Sans", sans-serif;
+  background-color: #e2e2e2;
+}
+
+/* /* br-navbar */
+.br-navbar {
+  height: 65px;
+  background: transparent;
+  color: white !important;
+  border: 0px !important;
+}
+
+/* br-main */
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://i.pinimg.com/originals/8a/74/6d/8a746d8eb265ab3ef533fa491e93f8b4.jpg");
+  margin-top: 0 !important;
+  padding-top: 10%;
+  padding-bottom: 20%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100%;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+/* form  */
+
+.br-form {
+  background: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  align-items: center;
+  background: #e2e2e2;
+}
+input[type="text"] {
+  background: white;
+}
+/* h1 tags */
+.br-headings {
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 1%;
+  border-bottom: 18px solid #e29930;
+  text-transform: uppercase;
+}
+/* services section */
+.br-services,
+.br-about-us {
+  background-color: white;
+  margin: 10% 10%;
+
+  text-align: center;
+}
+.br-services h3 {
+  color: #e29930;
+}
+.col-lg-4 {
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+/* br about us */
+.svg_container {
+  position: relative;
+}
+
+.svg_container > .heading_container {
+  position: absolute;
+  color: white;
+  text-align: center;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  font-size: 50px;
+  line-height: 2em;
+}
+/* about us section */
+.br-about-us img:hover {
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.br-about-us p {
+  line-height: 2em;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* footer */
+.br-footer {
+  background: #253754;
+  color: #e29930;
+}
+.br-footer h3 {
+  color: #e29930;
+  font-weight: bolder;
+}
+.br-footer p {
+  color: white;
+}
