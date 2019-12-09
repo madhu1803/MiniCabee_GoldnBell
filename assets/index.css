@@ -13,6 +13,19 @@
   border: 0px !important;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a :hover {
+  color: white !important;
+  transform: scale(1.1) !important;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
 /* br-main */
 .jumbotron {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -37,9 +50,11 @@
   align-items: center;
   background: #e2e2e2;
 }
+
 input[type="text"] {
   background: white;
 }
+
 /* h1 tags */
 .br-headings {
   text-align: center;
@@ -48,6 +63,7 @@ input[type="text"] {
   border-bottom: 18px solid #e29930;
   text-transform: uppercase;
 }
+
 /* services section */
 .br-services,
 .br-about-us {
@@ -56,12 +72,15 @@ input[type="text"] {
 
   text-align: center;
 }
+
 .col-lg-4:hover {
   background: #ccffff;
 }
+
 .br-services h3 {
   color: #e29930;
 }
+
 .col-lg-4 {
   padding-top: 5%;
   padding-bottom: 4%;
@@ -72,7 +91,7 @@ input[type="text"] {
   position: relative;
 }
 
-.svg_container > .heading_container {
+.svg_container>.heading_container {
   position: absolute;
   color: white;
   text-align: center;
@@ -82,11 +101,13 @@ input[type="text"] {
   font-size: 50px;
   line-height: 2em;
 }
+
 /* about us section */
 .br-about-us img:hover {
   opacity: 0.8;
   transition: 0.5s ease;
 }
+
 .br-about-us p {
   line-height: 2em;
   text-align: left;
@@ -95,34 +116,59 @@ input[type="text"] {
 
 /* why minicabee section */
 .why :hover {
-  background: #ccffff;
+  opacity: 0.9;
+  transition: 0.8s ease;
 }
+
+
+.why {
+  margin-top: 2%;
+  text-align: center;
+
+}
+
+.br-why {
+  margin: 12%;
+}
+
+
 /* footer */
 .br-footer {
   background: #253754;
   color: #e29930;
 }
+
 .br-footer h3 {
   color: #e29930;
   font-weight: bolder;
 }
+
 .br-footer p {
   color: white;
 }
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -146,6 +192,7 @@ input[type="text"] {
     top: -300px;
     opacity: 0;
   }
+
   to {
     top: 0;
     opacity: 1;
@@ -157,6 +204,7 @@ input[type="text"] {
     top: -300px;
     opacity: 0;
   }
+
   to {
     top: 0;
     opacity: 1;
@@ -181,7 +229,7 @@ input[type="text"] {
 .modal-header {
   padding: 2px 16px;
 
-  color: white;
+  color: black;
 }
 
 .modal-body {
@@ -191,5 +239,5 @@ input[type="text"] {
 .modal-footer {
   padding: 2px 16px;
 
-  color: white;
+  color: black;
 }
